@@ -30,9 +30,7 @@ int main() {
         printf("Employee ID: %d\n", employees[i].emp_id);
         printf("Name: %s\n", employees[i].name);
         printf("Salary: %.2f\n", employees[i].salary);
-        printf("--------------------------\n");
     }
     free(employees);
-
     return 0;
 }
